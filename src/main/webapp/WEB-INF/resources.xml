@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/uf_datasource" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://localhost/postgres
+        UserName = postgres
+        Password = 123456
+        jtaManaged = true
+    </Resource>
+</tomee>
