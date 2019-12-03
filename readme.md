@@ -7,7 +7,13 @@ MicroProfile Starter has generated this MicroProfile application for you.
 The generation of the executable jar file can be performed by issuing the following command
 
     mvn clean package
+    
+    
+-------------------
 
+Usando no eclipse o 'package tomee:run' após o comando acima
+
+-------------------
 This will create an executable jar file **cad-uf-exec.jar** within the _target_ maven folder. This can be started by executing the following command
 
     java -jar target/cad-uf-exec.jar
